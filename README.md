@@ -1,17 +1,6 @@
-The historical price data for Apple Inc. (AAPL) from January 1, 2010, to January 1, 2024, was downloaded using the Yahoo Finance API (yfinance). The dataset consists of six columns: Open, High, Low, Close, Adj Close, and Volume, totaling 3522 entries. 
-There are no missing values in the dataset, ensuring data completeness.
-
-Flow of the Project: 
-1) Data Exploration and Inspection
-2) Data Preparation
-3) Time Series Decomposition
-4) Staionarity and Testing
-5) Forecasting Model Development
-
-Install dependencies:-
 # Apple Stock Price Time Series Analysis and Forecasting
 
-This project involves a detailed time series analysis of Apple Inc. (AAPL) stock prices from January 2010 to January 2024. The analysis includes data preparation, exploration, time series decomposition, stationarity testing, and forecasting using the ARIMA model.
+This project involves a detailed time series analysis of Apple Inc. (AAPL) stock prices from January 2010 to January 2024. The analysis includes data preparation, exploration, time series decomposition, stationarity testing, and forecasting using the ARIMA model. (Refer Documentation for overall details)
 
 ## Table of Contents
 
@@ -99,5 +88,3 @@ Install the required libraries using:
 ```bash
 pip install pandas numpy matplotlib seaborn yfinance statsmodels pmdarima scikit-learn
 
-
-(Please refer Documentation for overall details)
